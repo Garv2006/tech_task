@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Document</title>
+    <style>
+        body{
+            padding:0px;
+            margin: 0px;
+            /* background: url('img/bg.jpg');adds background image */
+        }
+        header{
+            background-color: rgb(112 93 220);
+            border-radius: 20px;
+            margin-top: 20px;
+            padding:15px;
+        }
+        .heading{
+            background-color: black;
+            color:white;
+            font-size: 30px;
+            margin: 23px;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            border-radius: 15px;
+            text-align: center;
+
+        }
+        .left{
+            /* width:24px; */
+            display: inline-block;
+            border: 2px solid red;
+            position:sticky;
+            top:23px;/*to be edited*/
+            left: 43px;/*to be edited*/
+            margin: 0px auto;
+            padding:0px auto;
+            font-family: "Merriweather", serif;
+        }
+        .left img{
+            width: 57px;/*to be edited*/
+        }
+        /* .mid{
+            display: inline-block;
+            border: 2px solid red;
+            margin: 20px auto;
+        } */
+        .right{
+            color: white;
+            display: inline-block;
+            border: 2px solid red;
+            position:absolute ;
+            top:23px;/*to be edited*/
+            right: 43px;/*to be edited*/
+            margin: auto 0px;
+            /* padding: auto 0px; */
+        }
+        .right ul{
+            overflow: auto;
+        }
+        #rt{
+            display: inline block;
+            /* float:left; */
+            list-style: none;
+            text-decoration: none;
+            color: white;
+            margin: auto 23px;
+        }
+        .tourhead{
+            color:rgb(255, 0, 0);
+            text-decoration: none;
+            font-size: 19px;
+        }
+        .tourhead :hover{
+            color:rgb(0, 255, 102);/*unable to function for some reason*/
+            text-decoration: none;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .tour{
+            text-decoration: none;
+            font-size:15px;
+            margin:0px;
+        }
+        .image{
+            display: inline;
+            border: 2px solid red;
+            width:200px;
+        }
+        .foot{
+            list-style: none;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            width:550px;
+        }
+        .foot:hover{
+            color: rgb(196, 180, 180);
+        }
+        #foothead{
+            color: white;
+            background-color: black;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="img/d0bc2f6dc604c9eb049a6ed1645caee1.png" alt="">
+            UPExpress</div>
+        <div class="right">
+            <ul>
+                <li><a id="rt"href="#">Home</a></li>
+                <li><a id="rt"href="https://en.wikipedia.org/wiki/Uttar_Pradesh" target="_blank">Wiki</a></li>
+                <li><a id="rt"href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="heading">
+        Welcome traveller, Where do you want to visit today?
+    </div>
+    <div class="tour">
+        <ol>
+            <li><a class="tourhead" href="place1.html">Taj Mahal</a>
+                <img class="image" src="img/taj-mahal-agra-india-TAJ0217-9eab8f20d11d4391901867ed1ce222b8.jpg" alt="">
+            </li>
+            <li><a class="tourhead" href="place2.html">Agra Fort</a>
+                <img class="image" src="img/Agra_Fort.jpg" alt="">
+            </li>
+            <li><a class="tourhead" href="place3.html">Vrindavan</a>
+                <img class="image" src="img/images.jpeg" alt="">
+            </li>
+            <!-- <li><a href="place4.html"></a></li> -->
+        </ol>
+    </div>
+    <footer>
+        <div class="contacts">
+            <h4 id="foothead">Contact Details:-</h4>
+            <ul>
+                <li class="foot">For technical support:342820</li>
+                <li class="foot">For website complaints:232934</li>
+                <li class="foot">Mail us at : upexpress201@gmail.com</li>
+                <li></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
