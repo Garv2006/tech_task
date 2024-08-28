@@ -1,0 +1,1 @@
+this is uncompleted form of the task given, i am humbly sorry for not being able to complete the same due to lack of time. i have made the homepage from very scratch learning basics of html and css in the same time frame
